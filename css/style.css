@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* すべてのWebページに適応される */
+html {
+    font-family: sans-serif;
+}
+html *{
+    box-sizing:border-box;
+}
+body {	
+    margin: 0 0 0 0;
+    background-color: #eeece9;
+}
+.bg{
+    margin:0 0 0 0;
+    padding: 20px 10px 15px 20px;
+    background-image: url(../images/menu-bg.png);
+    background-repeat: repeat-x;
+
+}
+a:link{
+    color: #d25833;
+}
+a:visited{
+    color: #d25833;
+}
+a:hover{
+    color: #e3937a;
+}
+a:active{
+    color: #ff6a3b;
+}
+.bg a:link{
+    color: #3c454d;
+    text-decoration: none;
+}
+.bg a:visited{
+    color: #3c454d;
+    text-decoration: none;
+}
+.bg a:hover{
+    color: #7b8dac;
+    text-decoration: none;
+}
+.bg a:link{
+    color: #5a9bc0;
+    text-decoration: none;
+}
